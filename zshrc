@@ -1,3 +1,7 @@
+if [[ $(git -C ~/dot-files rev-parse --abbrev-ref HEAD) != "ubuntu" ]]; then
+    git -C ~/dot-files checkout ubuntu
+fi
+
 # Path to your oh-my-zsh installation.
   export ZSH=$HOME/.oh-my-zsh
 
