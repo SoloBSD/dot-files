@@ -74,6 +74,8 @@ source $ZSH/oh-my-zsh.sh
 # else
 #   export EDITOR='mvim'
 # fi
+export VISUAL='vim'
+export EDITOR='vim'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -92,7 +94,7 @@ source $ZSH/oh-my-zsh.sh
 
 #Own stuff
 #Aliases
-alias zshconfig='vi ~/.zshrc'
+alias zshconfig='vim ~/.zshrc'
 alias ls='pwd; ls -a --color'
 alias lsl='pwd; ls -lahG --color | more'
 alias g='git'
